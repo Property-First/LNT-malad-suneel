@@ -6,23 +6,38 @@
 	--colorBlue: #cb9e2b;
 }
 
-body{
-	-webkit-user-select: none;
-	-webkit-touch-callout: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	font-family: 'Open Sans', sans-serif!important;
-	font-weight: 400!important;
-	font-size: 14px!important;
-	line-height:26px!important;
-	height: 100%;
-	padding:0!important;
-	margin:0!important;
-	background:var(--colorPrimary);
-	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) var(--colorPrimary);
-    background-blend-mode: multiply,multiply;
-	color:#FFFFFF;
+body {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 26px !important;
+
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background: #5A1B39;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.15) 0%,
+        rgba(90, 27, 57, 1) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.40) 0%,
+        rgba(0, 0, 0, 0.40) 120%
+    ) #5A1B39;
+
+    background-blend-mode: multiply, multiply;
+
+    color: #FFFFFF;
 }
 
 html, body, div, span, applet, object, iframe,
